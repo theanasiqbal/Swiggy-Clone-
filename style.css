@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.topbar{
+    height: 80px;
+    background-color: white;
+    color: rgb(25, 28, 43);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow:  0px 1px 5px 1px rgba(0,0,0,0.2);
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px ;
+    gap: 15px;
+}
+.logo a{
+    text-decoration: underline;
+    margin-left: 15px;
+}
+.down-arrow{
+    margin-left: 5px;
+    color: orange;
+}
+sup{
+    color: orange;
+    font-size: 10px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.list{
+    width: 55%;
+}
+.topbar ul{
+    font-size: 0.95em;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 70px;
+}
+.topbar a{
+    color: rgb(25, 28, 43);
+    text-decoration: none;
+    font-weight: 550;
+}
+.topbar a:hover{
+    color: orange;
+}
+/* Below Header */
+.mind{
+    width: 70%;
+    height: 256px;
+    padding-top: 10px;
+    margin: 10px auto;
+    border-bottom: 0.5px solid grey;
+}
+.mind img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 1px 1px 40px -18px rgba(0,0,0,0.75);
+}
+.mind a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 550;
+}
+.food{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 35px;
+    text-align: center;
+}
+.food p {
+    margin-top: 7px;
+}
+/* Restaurant Chains */
+.restaurant-chains{
+    width: 70%;
+    height: 380px;
+    padding-top: 20px;
+    margin: 10px auto;
+    border-bottom: 0.5px solid grey;
+}
+.restaurant .box{
+    width: 30%;
+    margin-top: 30px;
+    gap: 7px;
+}
+.box img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 31px;
+    margin-bottom: 5px;
+}
+.box-text{
+    padding-left: 15px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-text p{
+    font-weight: 300;
+} 
+.restaurant{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}   
+.restaurant-chains i{
+    color: green;
+}
+.restaurant-chains a {
+    color: rgb(25, 28, 43);
+    text-decoration: none;
+    font-weight: 550;
+}
+.box-text p{
+    margin-top: 2px;
+}
+/* Online delivery */
+
+.online-delivery{
+    width: 70%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 10px auto;
+    border-bottom: 0.5px solid grey;
+}
+.button-container{
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+}
+.button-container button{
+    margin-top: 5px;
+    height: 38px;
+    background: none;
+	color: inherit;
+	border: 0.2px solid grey;
+    border-radius: 20px;
+    padding: 8px 12px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 15px;
+
+}
+.online-restaurant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+.online-restaurant .box{
+    width: 22%;
+}
+.online-delivery a{
+    color: rgb(25, 28, 43);
+    text-decoration: none;
+    font-weight: 550;
+}
+.online-delivery i{
+    color: green;
+}
+
+/* download section */
+
+.swiggy-download{
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    margin-top: 25px;
+}
+.download{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+}
+.download img{
+    
+    height: 64px;
+    width: 450px;
+}
+
+/* last footer */
+.details-container{
+    display: flex;
+    width: 70%;
+    height: 80%;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxes{
+    display: flex;
+    margin: 55px 0 0;
+    gap: 10px;
+}
+
+.details{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(2,6,12);
+    color: grey;
+}
+.details li{
+    list-style: none;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+.details-container ul p{
+    font-weight: bold;
+    color: white;
+
+}
+
+.details-logo img{
+    width: 35px;
+    height: 35px;
+}
+.text-align{
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.we-deliver select{
+    margin-top: 5px;
+    height: 38px;
+    background: none;
+	color: inherit;
+	border: 0.2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 15px;
+}
+.details-container a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 550;
+}
